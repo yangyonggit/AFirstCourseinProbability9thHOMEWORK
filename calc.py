@@ -14,7 +14,7 @@ for i in range(1,7):
 
 print( 4 * sum)
 
-# 1.31
+# 1.31*
 
 def h(n,r):
     if (r == 1):
@@ -31,5 +31,19 @@ print(h(8,4))
 sum = 0 
 for i in range(1,5):
     sum += C(4,i) * h(8,i)
-
 print(sum)
+
+
+# 1.32*
+def zh(n,r):
+    s = 0
+    for i in range(1,r+1):
+        s += C(r,i) * h(n,i)
+    return s
+
+
+print zh(8,6)
+
+print zh(5,6) * zh(3,6)
+# b
+
