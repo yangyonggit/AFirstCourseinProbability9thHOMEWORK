@@ -1,6 +1,6 @@
-# calc
+# PROBLEMS
 ## 1.29
-a) $\frac{10!}{3!4!2!}=12600$  
+a) $\dfrac{10!}{3!4!2!}=12600$  
 b) $\begin{pmatrix}3\\1\end{pmatrix}$ $\begin{pmatrix}3\\1\end{pmatrix}$ 
 $\begin{pmatrix}3\\2\end{pmatrix}$ 2! 7! / (3!4!2!) = 945  
 
@@ -21,10 +21,29 @@ $zh(n,r) = \sum\limits_{i=1}^{r} {r\choose i}{\text{H(n,i)}}$
 a) $\text{zh(8,6)} = 1287$  
 b) $\text{zh(5,6)zh(3,6)} = 14112$
 
+## 1.33*
+$H(n,r) = \begin{cases} 1 & \text{r = 1} \\n-1\choose 1 & \text{r = 2} \\\sum\limits_{i=1}^{n-2} {H(n-i)} & \text{otherwise} \end{cases}$  
+$zh(n,r) = \sum\limits_{i=1}^{r} {r\choose i}{\text{H(n,i)}}$  
+a) $\text{zh(9,4) = 220}$  
+b) $\text{zh(9,4) + zh(13,3) + zh(12,3) + zh(11,3) * 2 = 572}$
+
+## 1.34*
 
 
 
-# proof
+
+# THEORETICAL EXERCISES
+## 3
+${n\choose r} r!$
+
+## 4
+$\dfrac{n!}{(n-r)!r!} = {n\choose r}$
+
+## 5
+$n\choose k$
+
+## 6
+
 
 # self test
  4 

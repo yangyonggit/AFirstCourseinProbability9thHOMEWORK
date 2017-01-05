@@ -13,6 +13,7 @@ for i in range(1,7):
     sum += C(6,i) * math.factorial(i) * math.factorial(8-i)
 
 print( 4 * sum)
+print('---------------------------')
 
 # 1.31*
 
@@ -32,7 +33,7 @@ sum = 0
 for i in range(1,5):
     sum += C(4,i) * h(8,i)
 print(sum)
-
+print('---------------------------')
 
 # 1.32*
 def zh(n,r):
@@ -45,5 +46,30 @@ def zh(n,r):
 print zh(8,6)
 
 print zh(5,6) * zh(3,6)
-# b
+
+print('---------------------------')
+
+# 1.33*
+print('1.33*')
+print(zh(9,4))
+print(zh(9,4) + zh(13,3) + zh(12,3) + 2 * zh(11,3))
+
+print('---------------------------')
+
+
+# THEORETICAL EXERCISES
+# 6
+def func6(n,r):
+    if (r==1):
+        return n
+    else:
+        s = 1
+        for i in range(1,n-r+1):
+            s += func6(n-i,r-1)
+        return s
+    
+
+print(func6(6,3))
+
+
 
