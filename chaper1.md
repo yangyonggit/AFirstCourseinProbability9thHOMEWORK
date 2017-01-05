@@ -42,7 +42,15 @@ $\dfrac{n!}{(n-r)!r!} = {n\choose r}$
 ## 5
 $n\choose k$
 
-## 6
+## 7
+${n-1\choose r-1 } + {n-1\choose r} = {\dfrac{(n-1)!}{(n-r)!(r-1)!}} + {\dfrac{(n-1)!}{(n-r-1)!r!}}$
+$= {\dfrac{(n-1)!r}{(n-r)!r!}} + {\dfrac{(n-1)!(n-r)}{(n-r)!r!}}$  
+$= {\dfrac{(n-1)!n}{(n-r)!r!}}$ 
+$= {\dfrac{n!}{(n-r)!r!}} = {n\choose r}$
+
+## 8 
+${n+m\choose r}$
+
 
 
 # self test
