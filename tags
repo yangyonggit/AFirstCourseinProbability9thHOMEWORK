@@ -5,8 +5,11 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 C	calc.py	/^def C(n,r):$/;"	kind:function	line:3
+P	calc.py	/^def P(n):$/;"	kind:function	line:6
 calc.py	calc.py	1;"	kind:file	line:1
-h	calc.py	/^def h(n,r):$/;"	kind:function	line:19
-sum	calc.py	/^sum = 0 $/;"	kind:variable	line:31
-sum	calc.py	/^sum = 0$/;"	kind:variable	line:8
-zh	calc.py	/^def zh(n,r):$/;"	kind:function	line:38
+func6	calc.py	/^def func6(n,r):$/;"	kind:function	line:65
+h	calc.py	/^def h(n,r):$/;"	kind:function	line:23
+s	calc.py	/^s = 0$/;"	kind:variable	line:123
+sum	calc.py	/^sum = 0 $/;"	kind:variable	line:35
+sum	calc.py	/^sum = 0$/;"	kind:variable	line:11
+zh	calc.py	/^def zh(n,r):$/;"	kind:function	line:42

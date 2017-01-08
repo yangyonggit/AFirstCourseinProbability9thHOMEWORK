@@ -3,6 +3,9 @@ import math
 def C(n,r):
     return math.factorial(n) / (math.factorial(n-r) * math.factorial(r))
 
+def P(n):
+    return math.factorial(n)
+
 
 # 1.30
 sum = 0
@@ -71,5 +74,65 @@ def func6(n,r):
 
 print(func6(6,3))
 
+
+
+# SELF-TEST PROBLEMS AND EXERCISES
+print("SELF-TEST PROBLEMS AND EXERCISES")
+# 1
+print("PROBLEMS 1")
+print(2*P(5))
+print(P(6) / 2)
+print(P(6) / 6)
+print(P(6) / 4)
+print(P(4) * 2 * 2)
+print(P(6) - P(5))
+
+
+#2
+print("PROBLEMS 2")
+print(P(4)*P(3)*P(3)*P(3))
+
+#3
+print("PROBLEMS 3")
+print(10 * 9 * 8)
+print(8*7*6 + C(2,1)*C(3,1)*8*7)
+print(8*7*6 + 8*P(3))
+print(C(3,1) * 9 * 8)
+print(9*8 + 9*8*7)
+
+#4
+print("PROBLEMS 4")
+print(C(10,7))
+print(C(5,3)*C(5,4) +  C(5,4)*C(5,3) + C(5,5)*C(5,2))
+
+#5
+print("PROBLEMS 5")
+print(P(7) / (P(3) * P(2) * P(2)))
+
+#6
+print("PROBLEMS 6")
+print(pow(26,3) * pow(10,4))
+
+#10
+print("PROBLEMS 10")
+print(pow(9,5))
+print(9*8*7*6*5 + C(9,1)* C(5,2) * 8 * 7 *6 + C(9,2) * 7 * P(5) / (P(2) * P(2)))
+
+#11
+print("PROBLEMS 11")
+s = 0
+for i in range(0,7):    
+    s+=C(10,i)*C(10 - i,6 - i)
+print(s)
+print(C(10,3) * C(7,3))
+
+#print(C(10,6) * pow(2,6))
+#print(P(10) / (P(3) * P(3) * P(4)))
+
+#12
+print("PROBLEMS 12")
+print(C(7,2) * C(8,3))
+
+  
 
 

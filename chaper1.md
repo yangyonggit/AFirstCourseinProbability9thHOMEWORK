@@ -53,5 +53,22 @@ ${n+m\choose r}$
 
 
 
-# self test
- 4 
+# SELF-TEST PROBLEMS AND EXERCISES
+## 1.8 
+$10 * 9^{(n-1)}$  
+${10\choose i} {9^{n-i}}$
+
+## 1.9
+a) $3n\choose 3$  
+b) ${3\choose 1}{n\choose 3}$  
+c) ${3\choose 1}{n\choose 2}{2\choose 1}{n-2\choose 1}$  
+d) ${n\choose 1}^3$  
+e) a = b + c + d
+
+
+## 1.10
+a) $9^5$
+b) 
+
+
+
