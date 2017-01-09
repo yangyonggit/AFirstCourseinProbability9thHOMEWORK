@@ -10,6 +10,7 @@ calc.py	calc.py	1;"	kind:file	line:1
 func6	calc.py	/^def func6(n,r):$/;"	kind:function	line:65
 h	calc.py	/^def h(n,r):$/;"	kind:function	line:23
 s	calc.py	/^s = 0$/;"	kind:variable	line:123
+s	calc.py	/^s = 0$/;"	kind:variable	line:138
 sum	calc.py	/^sum = 0 $/;"	kind:variable	line:35
 sum	calc.py	/^sum = 0$/;"	kind:variable	line:11
 zh	calc.py	/^def zh(n,r):$/;"	kind:function	line:42

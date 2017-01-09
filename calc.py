@@ -133,6 +133,16 @@ print(C(10,3) * C(7,3))
 print("PROBLEMS 12")
 print(C(7,2) * C(8,3))
 
-  
+#16
+print("PROBLEMS 16")
+s = 0
+for i in range(1,5):
+    s+=C(5,i) + C(15,4-i)
+print(s)
 
+
+#18
+print("PROBLEMS 18")
+s = 3+6+10+7*2*2+6*2*3
+print(s)
 

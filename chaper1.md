@@ -67,8 +67,13 @@ e) a = b + c + d
 
 
 ## 1.10
-a) $9^5$
-b) 
+a) $9^5$  
 
+## 1.13
+${8\choose 4}{9\choose 4}{10\choose 4}$
 
+## 1.14
+acording to Fermat’s com-binatorial identity $k\choose n$
 
+## 1.15
+$\sum\limits_{k=0}^n {n\choose k}k!$
